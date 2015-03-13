@@ -1,5 +1,5 @@
 {
-  "name": "slice",
+  "name": "slice-node",
   "version": "1.0.0",
   "description": "Node.js SDK for Slice API http://developer.slice.com",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/vnataraj/slice-js-sdk.git"
+    "url": "https://github.com/slicedev/slice-node.git"
   },
   "dependencies": {
     "oauth": "*",
