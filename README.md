@@ -36,6 +36,10 @@ Once the request object is instantiated, call the following function:
     }
     )`
 
-This SDK does not replace the use of server frameworks like [Express](http://expressjs.com).  It is meant to complement them
+This completes the Hello World as described on [our site](https://developer.slice.com/docs/hello)!  Congrats, you're now ready to make requests!
+
+This SDK does not replace the use of server frameworks like [Express](http://expressjs.com).  It is meant to complement them.  
+
+Email [api@slice.com](mailto:api@slice.com) with any questions!
 
 
