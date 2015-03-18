@@ -3,7 +3,8 @@ Slice's native node.js SDK
 
 --------
 
-##Usage
+Usage
+===
 
 Install the module by calling:
 
@@ -31,7 +32,7 @@ Once the token is obtained, instantiate the Request object by calling:
 
 Once the request object is instantiated, call the following function:
 
-`request.users('/self', function(error, response, body){
+`request.users('/self', null, function(error, response, body){
       console.log(body);
     }
     )`
@@ -41,5 +42,4 @@ This completes the Hello World as described on [our site](https://developer.slic
 This SDK does not replace the use of server frameworks like [Express](http://expressjs.com).  It is meant to complement them.  
 
 Email [api@slice.com](mailto:api@slice.com) with any questions!
-
 
