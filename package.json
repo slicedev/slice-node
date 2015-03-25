@@ -2,9 +2,9 @@
   "name": "slice-node",
   "version": "1.0.3",
   "description": "Node.js SDK for Slice API http://developer.slice.com",
-  "main": "index.js",
+  "main": "build/index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "gulp"
   },
   "repository": {
     "type": "git",
@@ -13,6 +13,18 @@
   "dependencies": {
     "oauth": "*",
     "request": "*"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "phantomjs": "*",
+    "mocha-phantomjs": "*",
+    "express" : "*",
+    "zombie": "*",
+    "gulp": "*",
+    "gulp-jshint": "*",
+    "gulp-uglify": "*",
+    "gulp-mocha": "*",
+    "del":"*"
   },
   "author": "Slice Technologies",
   "license": "MIT",

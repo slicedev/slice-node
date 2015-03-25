@@ -1,2 +1,1 @@
-module.exports = require('./lib/slice.js');
-
+module.exports = require('./build/lib/slice.js');
