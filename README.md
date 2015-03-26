@@ -2,6 +2,7 @@
 Slice's native node.js SDK
 
 --------
+[![NPM](https://nodei.co/npm/slice-node.png)](https://npmjs.org/package/slice-node)
 
 Usage
 ===

@@ -4,8 +4,8 @@ var uglify = require('gulp-uglify');
 var mocha = require('gulp-mocha');
 var del = require('del');
 
-gulp.task('default', ['clean', 'index', 'src', 'mocha'], function(){
-  gulp.start('watch');  
+gulp.task('default', ['clean'], function(){
+  gulp.start('index', 'src', 'mocha', 'watch');  
 });
 
 gulp.task('src', function () {
